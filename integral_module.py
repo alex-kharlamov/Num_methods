@@ -1,9 +1,9 @@
-import numpy as np
 import types
-from math import *
+
+import numpy as np
 
 
-def count_integral(y, x=None, a=None, b=None, n=None):
+def integral_count(y, x=None, a=None, b=None, n=None):
     if n:
         assert n >= 1 and int(n) == n
 
